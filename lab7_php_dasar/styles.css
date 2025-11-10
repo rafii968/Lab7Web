@@ -1,0 +1,102 @@
+/* style.css - Gaya Sederhana dan Bersih */
+
+/* Pengaturan Dasar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Latar belakang sangat terang */
+    color: #333;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Kontainer Utama */
+.container {
+    width: 100%;
+    max-width: 500px; /* Batasi lebar agar fokus */
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ddd; /* Garis tepi tipis */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Bayangan sangat lembut */
+}
+
+/* Judul */
+h2, h3 {
+    color: #007bff; /* Warna biru standar */
+    border-bottom: 1px solid #eee; /* Garis bawah tipis */
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Group Form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input, Date, dan Select */
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Garis tepi input sederhana */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: #007bff; /* Warna biru saat fokus */
+    outline: none;
+}
+
+/* Tombol Kirim */
+.btn-submit {
+    background-color: #5cb85c; /* Warna hijau yang ramah */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-submit:hover {
+    background-color: #4cae4c;
+}
+
+/* Tampilan Hasil */
+.result-card {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9ff; /* Latar belakang hasil yang berbeda */
+    border-left: 4px solid #007bff; /* Garis biru sebagai penanda */
+}
+
+.result-item {
+    padding: 5px 0;
+}
+
+.result-item strong {
+    display: inline-block;
+    min-width: 120px;
+}
+
+.gaji {
+    color: #d9534f; /* Warna merah muda untuk gaji */
+    font-weight: bold;
+}
